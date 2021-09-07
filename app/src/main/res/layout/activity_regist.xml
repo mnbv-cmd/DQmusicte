@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Activitys.RegistActivity">
+    <include
+        layout="@layout/stustasbar" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="165dp"
+        android:layout_gravity="center_horizontal"
+        android:src="@mipmap/image1"
+        android:layout_marginBottom="20dp"
+        android:layout_marginTop="20dp"
+        />
+    <com.example.dqmusic.views.Inputview
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        app:hint="手机号"
+        app:icion="@mipmap/image1"
+        app:ispassword="false"
+        android:layout_marginBottom="20dp"
+        android:layout_marginTop="20dp"
+        android:id="@+id/phone"/>
+    <com.example.dqmusic.views.Inputview
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        app:hint="密码"
+        app:icion="@mipmap/image1"
+        app:ispassword="true"
+        android:layout_marginBottom="20dp"
+        android:layout_marginTop="20dp"
+        android:id="@+id/password"/>
+    <com.example.dqmusic.views.Inputview
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        app:hint="再次输入密码"
+        app:icion="@mipmap/image1"
+        app:ispassword="true"
+        android:layout_marginBottom="20dp"
+        android:layout_marginTop="20dp"
+        android:id="@+id/passwordconfrirn"/>
+    <Button
+        android:layout_marginBottom="20dp"
+        android:layout_marginTop="40dp"
+        style="@style/btncomint"
+        android:text="立即注册"
+        android:onClick="commit"
+        />
+</LinearLayout>

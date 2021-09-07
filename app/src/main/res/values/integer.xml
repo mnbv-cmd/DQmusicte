@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="durationactivty">200</integer>
+    <integer name="circleduration">10000</integer>
+    <integer name="needlestartduration">600</integer>
+</resources>

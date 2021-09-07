@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--声明样式-->
+    <declare-styleable name="Inputview">
+        <attr name="icion" format="reference"></attr>
+        <attr name="hint" format="string"></attr>
+        <attr name="ispassword" format="boolean">
+        </attr>
+    </declare-styleable>
+</resources>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="@dimen/navicationbarheight"
+    android:orientation="horizontal"
+    android:background="@color/maincolor">
+
+    <ImageView
+        android:id="@+id/back"
+        android:layout_width="31dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_vertical"
+        android:src="@mipmap/back" />
+
+    <TextView
+        android:id="@+id/texttile"
+        android:layout_width="0dp"
+        android:layout_height="56dp"
+        android:layout_weight="1"
+        android:layout_gravity="center_vertical"
+        android:gravity="center"
+        android:text="DQ音乐"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:textColor="@android:color/white"/>
+
+    <ImageView
+        android:id="@+id/me"
+        android:layout_width="31dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_vertical"
+        android:src="@mipmap/me"/>
+</LinearLayout>
